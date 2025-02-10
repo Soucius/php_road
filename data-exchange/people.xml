@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<People>
+    <Person>
+        <Name>Soucius</Name>
+        <Surname>Kaenj</Surname>
+        <Age>22</Age>
+    </Person>
+
+    <Person>
+        <Name>Sean</Name>
+        <Surname>Magnus</Surname>
+        <Age>27</Age>
+    </Person>
+
+    <Person>
+        <Name>David</Name>
+        <Surname>Pulls</Surname>
+        <Age>82</Age>
+    </Person>
+</People>
