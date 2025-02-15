@@ -9,14 +9,14 @@
 <body>
     <h1>Guvenlik</h1>
 
+    <form action="" method="post">
+        <input type="text" name="username"> <br>
+
+        <button type="submit">Submit</button>
+    </form>
+
     <?php
-        require "config/config.inc";
-
-        $query = $db->query("select * from users limit 10");
-        $users = $query->fetchAll(PDO::FETCH_ASSOC);
-
-        echo "<pre>";
-        print_r($users);
-    ?>  
+        echo htmlspecialchars($_POST['username'] ?? '');
+    ?>
 </body>
 </html>
