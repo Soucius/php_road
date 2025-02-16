@@ -1,0 +1,3 @@
+<?php
+
+    echo "Burasi index";

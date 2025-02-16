@@ -1,0 +1,10 @@
+#DirectoryIndex /selam.php
+
+#<Files 'iletisim.php'>
+#    deny from all
+#</Files>
+
+#AuthType Basic
+#AuthName "Restricted Content"
+#AuthUserFile http://localhost/php_road/htaccess/.htpasswd
+#require valid-user
